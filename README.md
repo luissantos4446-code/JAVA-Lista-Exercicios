@@ -149,18 +149,3 @@ public class LESM10 {
         sc.close();
     }
 }'
-
-# --------- 11 a 40 seguem o mesmo padrão (for, while, do while)
-# As classes LESM11 a LESM40 são todas as que te mostrei anteriormente.
-# (Você pode colar todas aqui, ou copiar do script grande anterior.)
-
-# ===========================================================
-# COMMIT E PUSH AUTOMÁTICO
-# ===========================================================
-git add .
-git commit -m "Adiciona projeto LuisEduardo com LESM01..LESM40" || true
-git branch -M main || true
-git push origin main
-
-echo "✅ Projeto criado e enviado com sucesso para o GitHub!"
-echo "Verifique em: https://github.com/luissantos4446-code/JAVA-lista-exerc-cios"
